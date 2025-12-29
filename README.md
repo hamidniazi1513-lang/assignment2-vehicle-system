@@ -24,6 +24,8 @@ To compile and run the program, navigate to the src folder and execute the follo
 javac *.java
 java Main
 
+
  Reflection
 Using inheritance made the design of this project much simpler because common properties and methods only needed to be written once in the Vehicle class. This helped keep the code organized and reduced repetition.
 Method overriding allowed each vehicle type to have its own engine behavior while still being handled through the same Vehicle reference in the main program. One of the challenges I faced was choosing the correct access modifiers, especially deciding when to use protected instead of private so that subclasses could still access necessary data without breaking encapsulation.
+
